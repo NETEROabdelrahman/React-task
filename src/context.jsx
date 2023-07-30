@@ -51,7 +51,8 @@ const AppProvider = ({ children }) => {
 
     const handleDelete = (id) => {
         console.log(id)
-        setData(prev=>prev.filter(user=>user.createdAt!=id))
+        setData(prev => prev.filter(user => user.createdAt != id))
+        
     }
 
 
