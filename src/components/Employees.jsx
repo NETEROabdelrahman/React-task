@@ -20,16 +20,16 @@ const Employees = () => {
                 <button className="bg-[#2764ac] text-white px-3 rounded w-[101px] whitespace-nowrap" onClick={() => setIsModalOpen(true)}>+ add new</button>
             </div>
             <div className='w-full flex flex-row flex-wrap gap-[46px] mt-10 items-center '>
-                {filtered ? <>
+                {!filtered ?   <>
               
-                    {filtered?.map((user) => {
-
+                        {data?.map((user ) => {
                         return (
                             <Card key={user.createdAt} {...user}  />
                         )
-                    })} </> : <>
+                    })} </>:<>
               
-                        {data?.map((user ) => {
+                    {filtered?.map((user) => {
+
                         return (
                             <Card key={user.createdAt} {...user}  />
                         )

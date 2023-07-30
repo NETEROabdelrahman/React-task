@@ -35,9 +35,13 @@ const AppProvider = ({ children }) => {
 
     const filterData = (searchtext) => {
         const regex = new RegExp(searchtext, "i"); 
-        setFiltered(data.filter(
-            (user) => regex.test(user.name) 
-          ))
+        if (searchtext) {
+            setFiltered(data.filter(
+                (user) => regex.test(user.name) 
+                ))
+        } else {
+            setFiltered('')
+            }
       };
 
     const handleSearch = (e) => {

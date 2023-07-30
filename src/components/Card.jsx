@@ -26,7 +26,7 @@ console.log(createdAt)
                 <div className=' flex flex-row gap-2 text-[#8997a4] mt-2'>
                     <BiSolidPencil />
                     <AiOutlinePauseCircle />
-                    <TbTrashXFilled id={createdAt}  onClick={(e)=>handleDelete(e.currentTarget.id)} />
+                    <TbTrashXFilled className=' cursor-pointer' id={createdAt}  onClick={(e)=>handleDelete(e.currentTarget.id)} />
                 </div>
             </div>
             <div className=' bg-[#8997a44d] w-[0.1px]  my-3' />
