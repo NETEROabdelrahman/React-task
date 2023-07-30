@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="text-white w-full flex flex-row justify-end  items-center mt-[5.5px] px-5 gap-2">
             <div className=' flex flex-row justify-center gap-[49px]'>
                 <span className="text-[#474747] text-[15px]">Thursday, 03 Oct 02:08:07 PM</span>
-                <button className=" bg-[#27b40c] px-[26px] rounded text-[13px] ">Sign In</button>
+                <button className=" bg-[#27b40c] px-[26px] rounded text-[13px] md:block hidden ">Sign In</button>
             </div>
             <span className='bg-[#e8e4e4] w-[1px] h-[45px]'></span>
             <BiSolidBellRing color='#27b40c' />

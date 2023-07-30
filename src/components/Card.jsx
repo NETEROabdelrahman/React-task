@@ -20,9 +20,9 @@ console.log(createdAt)
 
     return (
     
-        <div className='flex flex-row bg-white rounded pb-[12px] pr-[13px]  box lg:w-[400px] sm:w-[300px]'>
-            <div className='px-[19px] py-[11px]'>
-                <img className=' rounded-full w-[64px]' src="/assets/16711036050971.jpeg" alt="" />
+        <div className='flex flex-row bg-white rounded pb-[12px] pr-[13px]  box w-[400px] '>
+            <div className='px-[19px] py-[11px] '>
+                <img className=' rounded-full w-[64px] ' src="/assets/16711036050971.jpeg" alt="" />
                 <div className=' flex flex-row gap-2 text-[#8997a4] mt-2'>
                     <BiSolidPencil />
                     <AiOutlinePauseCircle />
@@ -30,7 +30,7 @@ console.log(createdAt)
                 </div>
             </div>
             <div className=' bg-[#8997a44d] w-[0.1px]  my-3' />
-            <div className='pl-4 min-w-[40%]'>
+            <div className='pl-4 min-w-[40%] '>
                 <h1 className=' text-[#313030] text-[20px]'>{name}</h1>
                 <h4 className=' text-[#313030] text-[13px]'>{position}</h4>
                 <h6 className='text-[#5c6974] text-[10px]'>{department}</h6>

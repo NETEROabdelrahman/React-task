@@ -4,16 +4,16 @@ const Modal = () => {
     const { setIsModalOpen, handleChange, handleSubmit } = useGlobalContext()
 
     return (
-        <div className="flex justify-center   absolute w-[100vw] h-[100vh] modal">
+        <div className="flex justify-center  absolute w-[100vw] h-[100vh] modal">
             <div className="w-[70%]  absolute bg-white rounded mt-20 p-3">
                 <h1 className="text-[#23aaeb] text-[18px]">NEW EMPLOYEE</h1>
                 <div className="bg-[#23aaeb] mt-3 mr-2 h-[0.1px]" />
                 <h6 className="text-[#23aaeb] font-bold text-[16px] mt-2">personal info</h6>
                 <div className="bg-[#23a8eb39]  mr-2 h-[3px] w-10" />
                 <form className="my-4" onSubmit={handleSubmit}>
-                    <div className="flex justify-between gap-2">
+                    <div className="flex justify-between md:flex-row flex-col gap-2">
                       
-                        <div className=" border-4 p-10 border-dashed flex-2 ">
+                        <div className=" border-4 p-10 border-dashed flex-2 text-center ">
                             Drag image here
                         </div>
                         <div className="flex flex-col flex-1">

@@ -31,8 +31,7 @@ aside{
 }
 
 .modal{
-  margin: 0 0 0 5px;
-  padding: 5.5px 20.3px 0 79px;
+  margin: 0;
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   background-color: rgba(40, 104, 174, 0.43);
